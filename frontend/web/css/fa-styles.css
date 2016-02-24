@@ -1,0 +1,11 @@
+.circle{
+    border-radius: 50%;
+    margin: 0.15em;
+    font-size: 3em;
+}
+.fa-phone{
+    background: #8dc63f;
+    color: #FFFFFF;
+    padding: 0.25em 0.25em;
+    margin-bottom: 10px !important;
+}
