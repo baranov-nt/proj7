@@ -88,7 +88,7 @@ $this->title = 'IT PROGECTS';
         </div>
     </div>
     <div class="main-services">
-        <div class="row">
+        <div class="row" style="width: 100%">
             <div class="col-md-12 text-center" style="color: #ffffff; padding-top: 10px;">
                 <h3>НАШИ УСЛУГИ</h3>
             </div>
@@ -121,7 +121,7 @@ $this->title = 'IT PROGECTS';
 
     <div class="separator"></div>
     <div class="main-header-service">
-        <section id="ex1" class="row">
+        <section id="ex1" class="row" style="width: 100%; padding: 0; margin: 0;">
             <article  class="col-md-6 col-md-offset-6 post last" style="display: block; height: 740px; background-color: #ffffff; opacity: 0.9;">
 
             </article>
@@ -148,18 +148,4 @@ $this->title = 'IT PROGECTS';
             </div>
         </div>
     </div>
-
-   <!-- <div class="separator"></div>
-    <section id="ex4">
-        <article class="post">
-            Текст статьи
-        </article>
-        <article class="post">
-            Текст статьи
-        </article>
-        <article class="post last">
-            Текст статьи
-        </article>
-    </section>-->
-
 </div>
