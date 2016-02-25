@@ -1,11 +1,30 @@
 .circle{
     border-radius: 50%;
-    margin: 0.15em;
-    font-size: 3em;
+    margin: 5px 5px 0 0;
+    font-size: 22px !important;
 }
-.fa-phone{
-    background: #8dc63f;
-    color: #FFFFFF;
-    padding: 0.25em 0.25em;
-    margin-bottom: 10px !important;
+.fa-facebook{
+    background: #f15a29;
+    color: #414042;
+    padding: 8px 14px;
+}
+.fa-twitter{
+    background: #f15a29;
+    color: #414042;
+    padding: 8px 9px;
+}
+.fa-instagram{
+    background: #f15a29;
+    color: #414042;
+    padding: 8px 10px;
+}
+.fa-vk{
+    background: #f15a29;
+    color: #414042;
+    padding: 8px 7px;
+}
+.fa-linkedin{
+    background: #f15a29;
+    color: #414042;
+    padding: 8px 10px;
 }

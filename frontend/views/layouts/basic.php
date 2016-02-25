@@ -2,7 +2,6 @@
 use frontend\assets\AppAsset;
 use yii\bootstrap\NavBar;
 use yii\bootstrap\Nav;
-use yii\bootstrap\Modal;
 use yii\helpers\Html;
 use common\widgets\Alert;
 use yii\helpers\Url;
@@ -105,11 +104,11 @@ $this->beginPage();
         ]);
         ?>
 
-        <div class="navbar-nav navbar-right" style="display: block; color: #ffffff; padding: 20px 0 10px 10px; width: 350px;">
-            <button class="btn btn-success btn-lg" style="float: left">Закажи звонок</button>
+        <div class="navbar-nav navbar-right" style="display: block; color: #ffffff; padding: 20px 0 10px 10px; width: 360px;">
+            <button class="btn btn-success btn-lg" style="float: left; margin-right: 10px;">Закажи звонок</button>
             <div style=" font-size: 30px; line-height: 32px; text-align: right;">
                 <img style="width: 22px; margin: 0 !important; padding-bottom: 4px;" src="/images/Header/call.svg"/> 555-55-55</div>
-            <div style="font-size: 10px; text-transform: none; text-align: right;">Екатеринбург, Машиностроителей 9</div>
+            <div style="font-size: 10px; text-transform: none; text-align: right;">Екатеринбург, Машиностроителей, 9</div>
         </div>
         <?php
         NavBar::end();
@@ -118,11 +117,48 @@ $this->beginPage();
             <?= $content ?>
     </div>
 
-    <footer class="footer" style="background-color: #337ab7; max-height: 100%; margin-top: 70px !important;">
-        <div class="container" >
-            <span class="badge badge-primary">
-                <span class="glyphicon glyphicon-copyright-mark"></span> <?= Yii::$app->name.' '.date('Y') ?>
-            </span>
+    <footer style="background-color: #414042; color: #ffffff;  padding: 30px 0 20px 0;">
+        <div class="container" style="background-color: #414042;">
+            <div class="row" >
+                <div class="col-md-2">
+                    <a href="/#" class="footer-link"><h4 style="margin: 0;">О НАС</h4></a>
+                    <a href="/#" class="footer-link">Компания</a><br>
+                    <a href="/#" class="footer-link">Команда</a><br>
+                    <a href="/#" class="footer-link">Партнеры</a><br>
+                    <a href="/#" class="footer-link">Заслуги</a><br>
+                    <a href="/#" class="footer-link"><h4 style="margin-top: 40px;">БЛОГ</h4></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="/#" class="footer-link"><h4 style="margin: 0;">УСЛУГИ</h4></a>
+                    <a href="/#" class="footer-link">Разработка сайта "под ключ"</a><br>
+                    <a href="/#" class="footer-link">Разработка Landing page</a><br>
+                    <a href="/#" class="footer-link">Оптимизация для поисковых систем</a><br>
+                    <a href="/#" class="footer-link">Оптимизация для социальных медиа</a><br>
+                    <a href="/#" class="footer-link">Аудит сайта</a><br>
+                    <a href="/#" class="footer-link">Е-майл маркетинг</a><br>
+                    <a href="/#" class="footer-link">One click маркетинг</a><br>
+                </div>
+                <div class="col-md-3">
+                    <a href="/#" class="footer-link"><h4 style="margin: 0;">ПОРТФОЛИО</h4></a>
+                    <a href="/#" class="footer-link">Клиенты</a><br>
+                    <a href="/#" class="footer-link">Сайты</a><br>
+                    <a href="/#" class="footer-link">Landing page</a><br>
+                    <a href="/#" class="footer-link">Видеорекомендации</a><br>
+                    <a href="/#" class="footer-link"><h4 style="margin-top: 40px;">КОНТАКТЫ</h4></a>
+                </div>
+                <div class="col-md-4" style="">
+                    <div style="width: 85%;">
+                    <img style="width: 100%; padding-bottom: 10px; background-color: #414042;" src="/images/Header/Logoheader.svg"/><br>
+                    <a href="/#"><i class="fa fa-facebook circle"></i></a>
+                    <a href="/#"><i class="fa fa-twitter circle"></i></a>
+                    <a href="/#"><i class="fa fa-instagram circle"></i></a>
+                    <a href="/#"><i class="fa fa-vk circle"></i></a>
+                    <a href="/#"><i class="fa fa-linkedin circle"></i></a>
+                    <p class="text-right" style="margin-top: 20px; margin-bottom: 0; padding-bottom: 0;">8(343)555-55-55</p>
+                    <p class="text-right" style="margin-top: 0; padding-top: 0;">Екатеринбург, Машиностроителей, 9</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 

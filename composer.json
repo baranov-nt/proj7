@@ -17,6 +17,7 @@
         "php": ">=5.4.0",
         "yiisoft/yii2": ">=2.0.6",
         "bower-asset/fontawesome": "4.5.*",
+        "bower-asset/animate.css": "*",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*"
     },

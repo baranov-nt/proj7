@@ -1,0 +1,36 @@
+.footer-link {
+    color: #ffffff;
+    font-size: 12px;
+}
+.footer-link:hover {
+    color: rgba(207, 207, 207, 1);
+    text-decoration: none;
+}
+.footer-link:active {
+    color: rgba(207, 207, 207, 1);
+    text-decoration: none;
+}
+.footer-link:focus {
+    color: rgba(207, 207, 207, 1);
+    text-decoration: none;
+}
+.main-banner {
+    background: url(../images/Mainbanner/mainbanner.jpg);
+    /*background-size: 100%;
+    max-height: 100%;*/
+}
+.main-services {
+    background-color: #65b99e;
+}
+.main-header-service {
+    background: url(../images/Ourspecials/bannerspecials.jpg);
+}
+.main-clients {
+    background-color: #3b3436;
+}
+.btn-site {
+    background-color: #58595b;
+}
+.btn-site:hover {
+    color: #e5e6e8;
+}
