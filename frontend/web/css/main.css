@@ -25,8 +25,20 @@
 .main-header-service {
     background: url(../images/Ourspecials/bannerspecials.jpg);
 }
+.main-sites {
+    background-color: #ffffff;
+}
+.main-how-we-work {
+    background: url(../images/Howtoweworks/Howtoweworks.jpg);
+}
 .main-clients {
     background-color: #3b3436;
+}
+.main-result {
+    background-color: #e6e7e8;
+}
+.main-about {
+    background-color: #ffffff;
 }
 .btn-site {
     background-color: #58595b;

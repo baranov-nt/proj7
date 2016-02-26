@@ -119,11 +119,11 @@ $this->title = 'IT PROGECTS';
         </div>
     </div>
 
-    <div class="separator"></div>
     <div class="main-header-service">
         <section id="ex1" class="row" style="width: 100%; padding: 0; margin: 0;">
             <article  class="col-md-6 col-md-offset-6 post last" style="display: block; height: 740px; background-color: #ffffff; opacity: 0.9;">
-
+                <h1>ЗАГОЛОВОК В ДВЕ СТРОКИ</h1>
+                <button class="btn btn-warning" style="margin-bottom: 30px;">НАЧАТЬ ПРОДВИЖЕНИЕ</button>
             </article>
         </section>
     </div>
@@ -144,6 +144,131 @@ $this->title = 'IT PROGECTS';
                 </div>
                 <div class="col-md-2">
                     <img style="width: 100px;" src="images/Clients/5client.svg"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-sites" style="padding: 0; margin: 0!important;">
+        <div class="container">
+            <div id="ex2" class="row">
+                    <article  class="col-md-6 post last" style="display: block; height: 740px; background-color: #ffffff; opacity: 0.9;">
+                        <h1>МЫ ДЕЛАЕМ САЙТЫ, КОТОРЫЕ СОБИРАЮТ ТРАФИК.</h1>
+                        <button class="btn btn-warning" style="margin-bottom: 30px;">НАЧАТЬ РАЗРАБОТКУ</button>
+                    </article>
+                <div class="col-md-6" >
+                    <div class="row">
+                        <div class="col-md-6" style="padding-left: 0; padding-right: 0;">
+                            <img style="width: 100%;" src="images/Sites/sites1.svg"/>
+                        </div>
+                        <div class="col-md-6" style="padding-left: 0; padding-right: 0;">
+                            <img style="width: 100%;" src="images/Sites/sites2.svg"/>
+                        </div>
+                        <div class="col-md-6" style="padding-left: 0; padding-right: 0;">
+                            <img style="width: 100%;" src="images/Sites/sites3.svg"/>
+                        </div>
+                        <div class="col-md-6" style="padding-left: 0; padding-right: 0;">
+                            <img style="width: 100%;" src="images/Sites/sites4.svg"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-how-we-work" style="padding: 0; margin: 0!important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" style="margin-top: 20px !important;">
+                    <h1 style="color: #ffffff;">КАК МЫ РАБОТАЕМ</h1>
+                </div>
+                <div id="ex3" class="col-md-10 col-md-offset-1 ">
+                    <div class="row post last">
+                        <div class="col-md-8" style="margin-top: 20px !important;">
+                            <img style="width: 100%;" src="images/Howtoweworks/howweworks1.svg"/>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 20px !important;">
+                            <h2 style="color: #ffffff;">ВЫЗОВ</h2>
+                            <button class="btn btn-warning" style="margin-bottom: 30px;">БРОСИТЬ ВЫЗОВ</button>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-8 col-md-push-4" style="margin-top: 30px !important;">
+                            <img style="width: 100%;" src="images/Howtoweworks/howweworks2.svg"/>
+                        </div>
+                        <div class="col-md-4 col-sm-pull-8" style="margin-top: 20px !important;">
+                            <h2 style="color: #ffffff;">РЕШЕНИЕ</h2>
+                            <button class="btn btn-warning" style="margin-bottom: 30px;">РЕШИТЬ МОИ ПРОБЛЕМЫ</button>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-md-8" style="margin-top: 30px !important; margin-bottom: 30px !important;">
+                            <img style="width: 100%;" src="images/Howtoweworks/howweworks3.svg"/>
+                        </div>
+                        <div class="col-md-4" style="margin-top: 30px !important; margin-bottom: 30px !important;">
+                            <h2 style="color: #ffffff;">РЕЗУЛЬТАТЫ</h2>
+                            <button class="btn btn-warning" style="margin-bottom: 30px;">ХОЧУ РЕЗУЛЬТАТЫ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-result" style="padding: 0; margin: 0!important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center" style="margin-top: 20px !important; margin-bottom: 30px;">
+                    <h1>РЕЗУЛЬТАТЫ</h1>
+                </div>
+                <div class="col-md-6">
+                    <div class="row" style="padding-top: 30px;">
+                        <div class="col-xs-6">
+                            <p style="color: #009444; font-size: 64px;">2563%</p>
+                        </div>
+                        <div class="col-xs-6">
+                            <p style="color: #009444; font-size: 64px;">75%</p>
+                        </div>
+                        <div class="col-xs-6">
+                            <p style="color: #009444; font-size: 64px;">390%</p>
+                        </div>
+                        <div class="col-xs-6">
+                            <p style="color: #009444; font-size: 64px;">1985%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img style="width: 100%;" src="images/Results/result1.png"/>
+                        </div>
+                        <div class="col-sm-8">
+                            <h5 style="padding-top: 15px;">Компания</h5>
+                            <h3 style="margin-bottom: 0;">Фамилия</h3>
+                            <h3 style="margin-top: 0;">Имя Отчество</h3>
+                            <h5>Должность</h5>
+                        </div>
+                        <div class="col-sm-12">
+                            <img style="width: 80px;" src="images/Results/covichki-29.svg"/>
+                        </div>
+                        <div class="col-sm-12" style="height: 80px;">
+
+                        </div>
+                        <div class="col-sm-12 text-right">
+                            <img style="width: 80px;" src="images/Results/covichki-30.svg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 text-center" style="margin-top: 30px !important;">
+                    <button class="btn btn-warning" style="margin-bottom: 40px;">СМОТРЕТЬ ВИДЕООТЗЫВ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main-about" style="padding: 0; margin: 0!important;">
+        <div id="ex4" class="container">
+            <div class="row post last" style="padding-top: 50px; padding-bottom: 40px;">
+                <div class="col-md-5">
+                    <img style="width: 80%;" src="images/Aboutus/Logo-31.svg"/>
+                </div>
+                <div class="col-md-7">
+                    <h1>НЕМНОГО О НАС</h1>
+                    <button class="btn btn-warning">УЗНАТЬ БОЛЬШЕ</button>
                 </div>
             </div>
         </div>
