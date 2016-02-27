@@ -98,7 +98,7 @@ $this->title = 'IT PROGECTS';
                 <p style="color: #ffffff;">
                     It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software.
                 </p>
-                <button class="btn btn-primary" style="margin: 30px 0 40px 0;">ПЕРЕЙТИ</button>
+                <button class="btn btn-md btn-primary" style="margin: 30px 0 40px 0;">ПЕРЕЙТИ</button>
             </div>
             <div class="col-md-2 text-center">
                 <img style="width: 100%" src="/images/Services/Services2.svg"/>
@@ -106,7 +106,7 @@ $this->title = 'IT PROGECTS';
                 <p style="color: #ffffff;">
                     It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software.
                 </p>
-                <button class="btn btn-primary" style="margin: 30px 0 40px 0;">ПЕРЕЙТИ</button>
+                <button class="btn btn-md btn-primary" style="margin: 30px 0 40px 0;">ПЕРЕЙТИ</button>
             </div>
             <div class="col-md-2 text-center">
                 <img style="width: 100%;" src="/images/Services/Services3.svg"/>
@@ -114,7 +114,7 @@ $this->title = 'IT PROGECTS';
                 <p style="color: #ffffff;">
                     It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software.
                 </p>
-                <button class="btn btn-primary" style="margin: 30px 0 40px 0;">ПЕРЕЙТИ</button>
+                <button class="btn btn-md btn-primary" style="margin: 30px 0 40px 0;">ПЕРЕЙТИ</button>
             </div>
         </div>
     </div>
@@ -123,7 +123,7 @@ $this->title = 'IT PROGECTS';
         <section id="ex1" class="row" style="width: 100%; padding: 0; margin: 0;">
             <article  class="col-md-6 col-md-offset-6 post last" style="display: block; height: 740px; background-color: #ffffff; opacity: 0.9;">
                 <h1>ЗАГОЛОВОК В ДВЕ СТРОКИ</h1>
-                <button class="btn btn-warning" style="margin-bottom: 30px;">НАЧАТЬ ПРОДВИЖЕНИЕ</button>
+                <button class="btn btn-md btn-warning" style="margin-bottom: 30px;">НАЧАТЬ ПРОДВИЖЕНИЕ</button>
             </article>
         </section>
     </div>
@@ -153,7 +153,7 @@ $this->title = 'IT PROGECTS';
             <div id="ex2" class="row">
                     <article  class="col-md-6 post last" style="display: block; height: 740px; background-color: #ffffff; opacity: 0.9;">
                         <h1>МЫ ДЕЛАЕМ САЙТЫ, КОТОРЫЕ СОБИРАЮТ ТРАФИК.</h1>
-                        <button class="btn btn-warning" style="margin-bottom: 30px;">НАЧАТЬ РАЗРАБОТКУ</button>
+                        <button class="btn btn-md btn-warning" style="margin-bottom: 30px;">НАЧАТЬ РАЗРАБОТКУ</button>
                     </article>
                 <div class="col-md-6" >
                     <div class="row">
@@ -187,7 +187,7 @@ $this->title = 'IT PROGECTS';
                         </div>
                         <div class="col-md-4" style="margin-top: 20px !important;">
                             <h2 style="color: #ffffff;">ВЫЗОВ</h2>
-                            <button class="btn btn-warning" style="margin-bottom: 30px;">БРОСИТЬ ВЫЗОВ</button>
+                            <button class="btn btn-md btn-warning" style="margin-bottom: 30px;">БРОСИТЬ ВЫЗОВ</button>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-md-8 col-md-push-4" style="margin-top: 30px !important;">
@@ -195,7 +195,7 @@ $this->title = 'IT PROGECTS';
                         </div>
                         <div class="col-md-4 col-sm-pull-8" style="margin-top: 20px !important;">
                             <h2 style="color: #ffffff;">РЕШЕНИЕ</h2>
-                            <button class="btn btn-warning" style="margin-bottom: 30px;">РЕШИТЬ МОИ ПРОБЛЕМЫ</button>
+                            <button class="btn btn-md btn-warning" style="margin-bottom: 30px;">РЕШИТЬ МОИ ПРОБЛЕМЫ</button>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-md-8" style="margin-top: 30px !important; margin-bottom: 30px !important;">
@@ -203,7 +203,7 @@ $this->title = 'IT PROGECTS';
                         </div>
                         <div class="col-md-4" style="margin-top: 30px !important; margin-bottom: 30px !important;">
                             <h2 style="color: #ffffff;">РЕЗУЛЬТАТЫ</h2>
-                            <button class="btn btn-warning" style="margin-bottom: 30px;">ХОЧУ РЕЗУЛЬТАТЫ</button>
+                            <button class="btn btn-md btn-warning" style="margin-bottom: 30px;">ХОЧУ РЕЗУЛЬТАТЫ</button>
                         </div>
                     </div>
                 </div>
@@ -255,7 +255,7 @@ $this->title = 'IT PROGECTS';
                     </div>
                 </div>
                 <div class="col-md-12 text-center" style="margin-top: 30px !important;">
-                    <button class="btn btn-warning" style="margin-bottom: 40px;">СМОТРЕТЬ ВИДЕООТЗЫВ</button>
+                    <button class="btn btn-md btn-warning" style="margin-bottom: 40px;">СМОТРЕТЬ ВИДЕООТЗЫВ</button>
                 </div>
             </div>
         </div>
@@ -268,7 +268,7 @@ $this->title = 'IT PROGECTS';
                 </div>
                 <div class="col-md-7">
                     <h1>НЕМНОГО О НАС</h1>
-                    <button class="btn btn-warning">УЗНАТЬ БОЛЬШЕ</button>
+                    <button class="btn btn-md btn-warning">УЗНАТЬ БОЛЬШЕ</button>
                 </div>
             </div>
         </div>

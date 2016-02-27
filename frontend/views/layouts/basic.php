@@ -104,9 +104,9 @@ $this->beginPage();
         ]);
         ?>
 
-        <div class="navbar-nav navbar-right" style="display: block; color: #ffffff; padding: 20px 0 10px 10px; width: 360px;">
-            <button class="btn btn-success btn-lg" style="float: left; margin-right: 10px;">Закажи звонок</button>
-            <div style=" font-size: 30px; line-height: 32px; text-align: right;">
+        <div class="navbar-nav navbar-right" style="display: block; color: #ffffff; padding: 20px 0 10px 10px; width: 350px;">
+            <button class="btn btn-success btn-md" style="float: left; margin-right: 10px;">Закажи звонок</button>
+            <div style=" font-size: 28px; line-height: 28px; text-align: right;">
                 <img style="width: 22px; margin: 0 !important; padding-bottom: 4px;" src="/images/Header/call.svg"/> 555-55-55</div>
             <div style="font-size: 10px; text-transform: none; text-align: right;">Екатеринбург, Машиностроителей, 9</div>
         </div>

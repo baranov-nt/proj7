@@ -18,6 +18,8 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
+        'css/buttons.css',
+        'css/fonts.css',
         'css/main.css',
         'css/fa-styles.css',
         'css/main-menu.css',

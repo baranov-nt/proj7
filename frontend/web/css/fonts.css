@@ -1,0 +1,14 @@
+@font-face {font-family: Rubik-Black; src: url(rubik/Rubik-Black.ttf);}
+@font-face {font-family: Rubik-BlackItalic; src: url(rubik/Rubik-BlackItalic.ttf);}
+@font-face {font-family: Rubik-Bold; src: url(rubik/Rubik-Bold.ttf);}
+@font-face {font-family: Rubik-BoldItalic; src: url(rubik/Rubik-BoldItalic.ttf);}
+@font-face {font-family: Rubik-Italic; src: url(rubik/Rubik-Italic.ttf);}
+@font-face {font-family: Rubik-Light; src: url(rubik/Rubik-Light.ttf);}
+@font-face {font-family: Rubik-LightItalic; src: url(rubik/Rubik-LightItalic.ttf);}
+@font-face {font-family: Rubik-Medium; src: url(rubik/Rubik-Medium.ttf);}
+@font-face {font-family: Rubik-MediumItalic; src: url(rubik/Rubik-MediumItalic.ttf);}
+@font-face {font-family: Rubik-Regular; src: url(rubik/Rubik-Regular.ttf);}
+
+body {
+    font-family: Rubik-Regular;
+}
