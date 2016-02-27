@@ -19,7 +19,7 @@ $this->title = 'IT PROGECTS';
                     <p>Мы поставим ваш бизнес на лидирующие позиции.</p>
                 </div>
                 <div class="col-md-8 col-md-offset-2 text-center" style="color: #ffffff; padding-top: 80px; text-shadow: 1px 1px 2px black, 0 0 1em grey;">
-                    <h2>Закажите бессплатный аудит для вашего сайта.</h2>
+                    <h2>Закажите бесплатный аудит для вашего сайта.</h2>
                 </div>
                 <div class="col-md-8 col-md-offset-2 text-center" style="color: #ffffff; margin-bottom: 60px;">
                     <div >
