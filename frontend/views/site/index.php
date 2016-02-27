@@ -47,7 +47,7 @@ $this->title = 'IT PROGECTS';
                             <span class="input-group-btn">
                             <?php
                             echo Html::submitButton(
-                                'Заказать бессплатный аудит',
+                                'Заказать бесплатный аудит',
                                 [
                                     'class' => 'btn btn-site',
                                     'style' => ''
