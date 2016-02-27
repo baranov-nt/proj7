@@ -7,12 +7,12 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if ( ($(this).scrollTop()+h) >= $("#ex1").offset().top) {
             $("#ex1 .post").css({visibility:"visible"});
-            $("#ex1 .post").addClass('col-md-6 col-md-offset-6 animated bounceInRight');
+            $("#ex1 .post").addClass('col-md-6 col-md-offset-6 animated slideInRight');
         }
 
         if ( ($(this).scrollTop()+h) >= $("#ex2").offset().top) {
             $("#ex2 .post").css({visibility:"visible"});
-            $("#ex2 .post").addClass('col-md-6 animated bounceInLeft');
+            $("#ex2 .post").addClass('col-md-6 animated slideInLeft');
         }
 
         if ( ($(this).scrollTop()+h) >= $("#ex3").offset().top) {
