@@ -65,7 +65,7 @@ $this->beginPage();
             ],
             [
                 'label' => Yii::t('app', 'Услуги'),
-                'url' => Url::to(['/#']),
+                'url' => Url::to(['/site/service']),
                 'linkOptions' => [
 
                 ]
@@ -129,7 +129,7 @@ $this->beginPage();
                     <a href="/#" class="footer-link"><h4 style="margin-top: 40px;">БЛОГ</h4></a>
                 </div>
                 <div class="col-md-3">
-                    <a href="/#" class="footer-link"><h4 style="margin: 0;">УСЛУГИ</h4></a>
+                    <a href="/site/service" class="footer-link"><h4 style="margin: 0;">УСЛУГИ</h4></a>
                     <a href="/#" class="footer-link">Разработка сайта "под ключ"</a><br>
                     <a href="/#" class="footer-link">Разработка Landing page</a><br>
                     <a href="/#" class="footer-link">Оптимизация для поисковых систем</a><br>

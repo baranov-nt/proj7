@@ -14,20 +14,17 @@ class AnimateCSSWidget extends \yii\web\AssetBundle
     /**
      * @inherit
      */
-    public $sourcePath = '@bower/animate.css';
+    public $sourcePath = '@common/widgets/AnimateCSSWidget';
 
     /**
      * @inherit
      */
-    public $css = [
-        'animate.min.css',
+
+    public $js = [
+        'animate.js',
     ];
 
-   /* public $js = [
-        'gulpfile.js',
-    ];*/
-
     public $depends = [
-        'yii\web\YiiAsset',
+        'common\widgets\AnimateCSSWidget\AssetBundle',
     ];
 }

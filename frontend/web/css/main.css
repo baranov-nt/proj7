@@ -46,3 +46,12 @@
 .btn-site:hover {
     color: #e5e6e8;
 }
+.service-block-1 {
+    margin-top: 20px;
+    padding: 10px 20px 20px 20px;
+    border: 3px solid #c6c6c6;
+}
+.call-back-banner {
+    background-color: #575756;
+    padding: 0 10px 0 10px;
+}
