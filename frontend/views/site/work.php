@@ -321,6 +321,9 @@ $this->title = 'Работы';
                                     'id' => 'modal-5',
                                     'header' => '<h2>Видео 1</h2>',
                                     'toggleButton' => false,
+                                    'closeButton' => [
+                                        'onclick' => ''
+                                    ]
                                 ]);
 
                                 echo \vision\ytbwidget\YouTube::widget([
