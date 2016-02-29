@@ -86,6 +86,16 @@ class SiteController extends Controller
     }
 
     /**
+     * Displays homepage.
+     *
+     * @return mixed
+     */
+    public function actionWork()
+    {
+        return $this->render('work');
+    }
+
+    /**
      * Logs in a user.
      *
      * @return mixed

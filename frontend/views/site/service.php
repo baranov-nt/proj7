@@ -179,7 +179,7 @@ $this->title = 'Услуги';
                             echo Menu::widget([
                                 'items' => [
                                     [
-                                        'label' => 'Разработка сайта “под ключ”',
+                                        'label' => 'Разработка сайта "под ключ"',
                                         'url' => Url::to(['/site/service']),
                                         //'active' => Yii::$app->controller->action->id == 'service'
                                     ],
@@ -202,7 +202,7 @@ $this->title = 'Услуги';
                             ]);
                             ?>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 text-center">
                             <?php
                             echo Menu::widget([
                                 'items' => [

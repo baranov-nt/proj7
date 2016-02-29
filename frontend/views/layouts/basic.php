@@ -72,7 +72,7 @@ $this->beginPage();
             ],
             [
                 'label' => Yii::t('app', 'Работы'),
-                'url' => Url::to(['/#']),
+                'url' => Url::to(['/site/work']),
                 'linkOptions' => [
 
                 ]

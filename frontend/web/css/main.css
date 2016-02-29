@@ -55,3 +55,72 @@
     background-color: #575756;
     padding: 0 10px 0 10px;
 }
+.image-block {
+    background: url(../images/Works/w_temp.png);
+    background-size: 100%;
+    margin: 10px 0 0 0;
+    border: 1px solid #cccccc;
+}
+.img-container {
+    position:relative;
+    display:inline-block;
+}
+.img-container-content {
+     display: block;
+     background-color: #000000;
+     color: #ffffff;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     width: 100%;
+     height: 50px;
+     opacity: 0.8;
+     font-size: 20px;
+     padding: 10px 0 0 15px;
+}
+.img-container-active-content {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 10px;
+}
+.img-container-active-content-inside {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+}
+.btn-transparent {
+    background-color: rgba(255,255,255, 1);
+    color: #000000;
+    width: 100%;
+}
+.btn-transparent:hover {
+    border: 1px solid #ffffff;
+    background-color: rgba(0,0,0, 0.5);
+    color: #ffffff;
+    width: 100%;
+}
+.img-container-image {
+    width: 100%;
+    margin-bottom: 30px;
+}
+@media (max-width: 1226px) and (min-width: 899px) {
+    .img-container-image {
+        width: 100%;
+    }
+}
+#myDiv1 {
+    width: 100%;
+}
+#myDiv2 {
+    width: 100%;
+}

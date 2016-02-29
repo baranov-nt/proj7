@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8e32171bf601bdc765edc9f12b6fd06e",
-    "content-hash": "7f9ee2e5aeb14e47223b6e79f780e6c0",
+    "hash": "555e67a43ed14a9e3e7c7a139c22d59f",
+    "content-hash": "3142247d214b3f5e3b9e1960f6928d4e",
     "packages": [
         {
             "name": "bower-asset/animate.css",
@@ -414,6 +414,48 @@
                 "mailer"
             ],
             "time": "2015-06-06 14:19:39"
+        },
+        {
+            "name": "vision/yii2-you-tube-widget",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/visionp/yii2-you-tube-widget.git",
+                "reference": "8797d0f776df6c189b137b46b3ddaa7100af04b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/visionp/yii2-you-tube-widget/zipball/8797d0f776df6c189b137b46b3ddaa7100af04b9",
+                "reference": "8797d0f776df6c189b137b46b3ddaa7100af04b9",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "vision\\ytbwidget\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Petrenko Aleksandr",
+                    "email": "visionp@bigmir.net"
+                }
+            ],
+            "description": "Simple widget you tube for yii2",
+            "keywords": [
+                " simple",
+                " widgwt",
+                "yii2",
+                "you tube"
+            ],
+            "time": "2015-09-15 06:45:33"
         },
         {
             "name": "yiisoft/yii2",
@@ -966,7 +1008,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "vision/yii2-you-tube-widget": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
