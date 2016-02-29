@@ -64,7 +64,6 @@
 .img-container {
     position:relative;
     display:inline-block;
-    transition-duration: 1s;
 }
 .img-container-content {
     display: block;
@@ -90,8 +89,7 @@
     width: 100%;
     height: 100%;
     font-size: 20px;
-    padding: 10px;
-    transition-duration: 1s;
+
 }
 .img-container-active-content-inside {
     position: absolute;
@@ -99,7 +97,9 @@
     right: 0;
     width: 100%;
     height: 90px;
-    padding: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .btn-transparent {
     background-color: rgba(255,255,255, 1);
