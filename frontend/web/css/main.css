@@ -64,19 +64,21 @@
 .img-container {
     position:relative;
     display:inline-block;
+    transition-duration: 1s;
 }
 .img-container-content {
-     display: block;
-     background-color: #000000;
-     color: #ffffff;
-     position: absolute;
-     bottom: 0;
-     right: 0;
-     width: 100%;
-     height: 50px;
-     opacity: 0.8;
-     font-size: 20px;
-     padding: 10px 0 0 15px;
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    opacity: 0.8;
+    font-size: 20px;
+    padding: 10px 0 0 15px;
+    transition-duration: 1s;
 }
 .img-container-active-content {
     display: none;
@@ -89,6 +91,7 @@
     height: 100%;
     font-size: 20px;
     padding: 10px;
+    transition-duration: 1s;
 }
 .img-container-active-content-inside {
     position: absolute;
