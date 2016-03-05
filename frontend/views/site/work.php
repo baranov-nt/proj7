@@ -132,28 +132,28 @@ $this->title = 'Работы';
                         <div class="col-xs-3 text-center">
                             <div style="border: 1px solid #cccccc;">
                                 <a href="/#">
-                                    <img style="width: 100%;" src="/images/Works/w1.png"/>
+                                    <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w1.png"/>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-3 text-center">
                             <div style="border: 1px solid #cccccc;">
                                 <a href="/#">
-                                    <img style="width: 100%;" src="/images/Works/w2.png"/>
+                                    <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w2.png"/>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-3 text-center">
                             <div style="border: 1px solid #cccccc;">
                                 <a href="/#">
-                                    <img style="width: 100%;" src="/images/Works/w3.png"/>
+                                    <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w3.png"/>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-3 text-center">
                             <div style="border: 1px solid #cccccc;">
                                 <a href="/#">
-                                    <img style="width: 100%;" src="/images/Works/w1.png"/>
+                                    <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w1.png"/>
                                 </a>
                             </div>
                         </div>
@@ -163,7 +163,7 @@ $this->title = 'Работы';
                     <div class="row">
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">
-                                <img class="img-container-image" src="/images/Works/w_temp.png"/>
+                                <img class="img-container-image" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w_temp.png"/>
                                 <div class="img-container-content">LOBSTER STUDIO</div>
                                 <div class="img-container-active-content">
                                     <div class="img-container-active-content-inside">
@@ -189,7 +189,7 @@ $this->title = 'Работы';
                         </div>
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">
-                                <img class="img-container-image" src="/images/Works/w_temp.png"/>
+                                <img class="img-container-image" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w_temp.png"/>
                                 <div class="img-container-content">LOBSTER STUDIO</div>
                                 <div class="img-container-active-content">
                                     <div class="img-container-active-content-inside">
@@ -238,7 +238,7 @@ $this->title = 'Работы';
                         </div>
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">
-                                <img class="img-container-image" src="/images/Works/w_temp.png"/>
+                                <img class="img-container-image" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w_temp.png"/>
                                 <div class="img-container-content">LOBSTER STUDIO</div>
                                 <div class="img-container-active-content">
                                     <div class="img-container-active-content-inside">
@@ -264,7 +264,7 @@ $this->title = 'Работы';
                         </div>
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">
-                                <img class="img-container-image" src="/images/Works/w_temp.png"/>
+                                <img class="img-container-image" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w_temp.png"/>
                                 <div class="img-container-content">LOBSTER STUDIO</div>
                                 <div class="img-container-active-content">
                                     <div class="img-container-active-content-inside">
@@ -302,7 +302,7 @@ $this->title = 'Работы';
                         </div>
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">
-                                <img class="img-container-image" src="/images/Works/w_temp.png"/>
+                                <img class="img-container-image" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w_temp.png"/>
                                 <div class="img-container-content">LOBSTER STUDIO</div>
                                 <div class="img-container-active-content">
                                     <div class="img-container-active-content-inside">
@@ -336,7 +336,7 @@ $this->title = 'Работы';
                         </div>
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">
-                                <img class="img-container-image" src="/images/Works/w_temp.png"/>
+                                <img class="img-container-image" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w_temp.png"/>
                                 <div class="img-container-content">LOBSTER STUDIO</div>
                                 <div class="img-container-active-content">
                                     <div class="img-container-active-content-inside">
@@ -379,7 +379,7 @@ $this->title = 'Работы';
                         </div>
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">
-                                <img class="img-container-image" src="/images/Works/w_temp.png"/>
+                                <img class="img-container-image" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w_temp.png"/>
                                 <div class="img-container-content">LOBSTER STUDIO</div>
                                 <div class="img-container-active-content">
                                     <div class="img-container-active-content-inside">
@@ -405,7 +405,7 @@ $this->title = 'Работы';
                         </div>
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">
-                                <img class="img-container-image" src="/images/Works/w_temp.png"/>
+                                <img class="img-container-image" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Works/w_temp.png"/>
                                 <div class="img-container-content">LOBSTER STUDIO</div>
                                 <div class="img-container-active-content">
                                     <div class="img-container-active-content-inside">

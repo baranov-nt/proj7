@@ -129,7 +129,7 @@ $this->title = 'Услуги';
                     <h2 style="margin-bottom: 15px;">Почему захотите работать с нами</h2>
                     <div class="row">
                         <div class="col-xs-2">
-                            <img style="width: 100%;" src="/images/Services/whyyoutoworkicons-03.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Services/whyyoutoworkicons-03.svg"/>
                         </div>
                         <div class="col-xs-10">
                             <h3 style="margin-top: 35px;">Экспертиза и глубокое погружение</h3>
@@ -138,7 +138,7 @@ $this->title = 'Услуги';
                     <br>
                     <div class="row">
                         <div class="col-xs-2">
-                            <img style="width: 100%;" src="/images/Services/whyyoutoworkicons-04.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Services/whyyoutoworkicons-04.svg"/>
                         </div>
                         <div class="col-xs-10">
                             <h3 style="margin-top: 35px;">Тщательная проверка</h3>
@@ -147,7 +147,7 @@ $this->title = 'Услуги';
                     <br>
                     <div class="row">
                         <div class="col-xs-2">
-                            <img style="width: 100%;" src="/images/Services/whyyoutoworkicons-05.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Services/whyyoutoworkicons-05.svg"/>
                         </div>
                         <div class="col-xs-10">
                             <h3 style="margin-top: 35px;">Прозрачность</h3>

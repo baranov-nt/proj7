@@ -44,7 +44,7 @@ $this->beginPage();
                 'innerContainerOptions' => [
                     'class' => 'container'
                 ],
-                'brandLabel' => '<img style="width: 100%;" src="/images/Header/Logoheader.svg"/>',
+                'brandLabel' => '<img style="width: 100%;" src="'.Yii::$app->urlManager->baseUrl.'/images/Header/Logoheader.svg"/>',
                 'brandUrl' => [
                     '/site/index'
                 ],
@@ -107,7 +107,7 @@ $this->beginPage();
         <div class="navbar-nav navbar-right" style="display: block; color: #ffffff; padding: 20px 0 10px 10px; width: 350px;">
             <button class="btn btn-success btn-md" style="float: left; margin-right: 10px;">Закажи звонок</button>
             <div style=" font-size: 28px; line-height: 28px; text-align: right;">
-                <img style="width: 22px; margin: 0 !important; padding-bottom: 4px;" src="/images/Header/call.svg"/> 555-55-55</div>
+                <img style="width: 22px; margin: 0 !important; padding-bottom: 4px;" src="<?= Yii::$app->urlManager->baseUrl.'/images/Header/call.svg' ?>"/> 555-55-55</div>
             <div style="font-size: 10px; text-transform: none; text-align: right;">Екатеринбург, Машиностроителей, 9</div>
         </div>
         <?php
@@ -148,7 +148,7 @@ $this->beginPage();
                 </div>
                 <div class="col-md-4" style="">
                     <div style="width: 85%;">
-                    <img style="width: 100%; padding-bottom: 10px; background-color: #414042;" src="/images/Header/Logoheader.svg"/><br>
+                    <img style="width: 100%; padding-bottom: 10px; background-color: #414042;" src="<?= Yii::$app->urlManager->baseUrl.'/images/Header/Logoheader.svg' ?>"/><br>
                     <a href="/#"><i class="fa fa-facebook circle"></i></a>
                     <a href="/#"><i class="fa fa-twitter circle"></i></a>
                     <a href="/#"><i class="fa fa-instagram circle"></i></a>
