@@ -9,7 +9,7 @@
 use yii\helpers\Html;
 use common\widgets\ServiceLeftBlock\ServiceLeftBlock;
 
-$this->title = 'E-mail маркетинг';
+$this->title = 'Оптимизация для поисковых систем';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="container" style="padding-top: 40px;">
