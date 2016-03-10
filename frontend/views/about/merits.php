@@ -1,12 +1,13 @@
 <?php
-
-/* @var $this yii\web\View */
-/* @var $form yii\bootstrap\ActiveForm */
-/* @var $model \frontend\models\ContactForm */
-
+/**
+ * Created by PhpStorm.
+ * User: phpNT
+ * Date: 10.03.2016
+ * Time: 17:13
+ */
 use yii\helpers\Html;
 
-$this->title = 'КОНТАКТЫ';
+$this->title = 'Заслуги';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="container">

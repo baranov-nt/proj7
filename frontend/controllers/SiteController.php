@@ -76,26 +76,6 @@ class SiteController extends Controller
     }
 
     /**
-     * Displays homepage.
-     *
-     * @return mixed
-     */
-    public function actionService()
-    {
-        return $this->render('service');
-    }
-
-    /**
-     * Displays homepage.
-     *
-     * @return mixed
-     */
-    public function actionWork()
-    {
-        return $this->render('work');
-    }
-
-    /**
      * Logs in a user.
      *
      * @return mixed
@@ -159,6 +139,16 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    /**
+     * Displays about page.
+     *
+     * @return mixed
+     */
+    public function actionBlog()
+    {
+        return $this->render('blog');
     }
 
     /**

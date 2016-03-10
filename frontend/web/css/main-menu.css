@@ -28,7 +28,7 @@
 }
 #main-menu.navbar-default .navbar-toggle:hover,
 #main-menu.navbar-default .navbar-toggle:focus {
-    background-color: #414042;
+    background-color: #ffffff;
 }
 #main-menu.navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
@@ -45,4 +45,25 @@
 }
 .navbar {
     margin-bottom: 0 !important;
+}
+.dropdown-menu > .active > a {
+    background-color: #414042 !important;
+    color: #ffffff !important;
+}
+@media (max-width: 767px) {
+    .navbar-nav .open .dropdown-menu {
+        background-color: #414042;
+    }
+    .navbar-nav .open .dropdown-menu > li > a {
+        background-color: #414042;
+        color: #ffffff !important;
+    }
+    .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: rgba(207, 207, 207, 1) !important;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu >
+    .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        background-color: #414042;
+        color: #ffffff !important;
+    }
 }

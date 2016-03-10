@@ -13,7 +13,7 @@
  * Date: 28.02.2016
  * Time: 13:47
  */
-use yii\bootstrap\Nav;
+use common\widgets\WorksLeftBlock\WorksLeftBlock;
 use yii\helpers\Url;
 use yii\widgets\Menu;
 use yii\bootstrap\Modal;
@@ -23,66 +23,7 @@ $this->title = 'Работы';
 <div class="container" style="padding-top: 40px;">
     <div class="row">
         <div class="col-md-4">
-            <div class="row">
-                <div class="col-xs-12">
-                    <?php
-                    echo Nav::widget([
-                        'items' => [
-                            [
-                                'label' => 'РАБОТЫ',
-                                'url' => Url::to(['/site/service']),
-                                'linkOptions' => [
-                                    'class' => 'nav-header'
-                                ],
-                            ],
-                            [
-                                'label' => 'Клиенты',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
-                            ],
-                            [
-                                'label' => 'Посадочные страницы',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
-                            ],
-                            [
-                                'label' => 'Сайты',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
-                            ],
-                            [
-                                'label' => 'Видеорекомендации',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
-                            ],
-                            [
-                                'label' => 'SEO продвижение',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
-                            ],
-                        ],
-                        'options' => [
-                            'id' => 'nav-service',
-                            'class' =>'nav nav-pills nav-stacked'
-                        ], // set this to nav-tab to get tab-styled navigation
-                    ]);
-                    ?>
-                </div>
-                <div class="col-xs-12">
-                    <div class="service-block-1">
-                        <h4><strong>Бесплатный аудит сайта</strong></h4>
-                        <p style="margin: 15px 0 15px 0;">Закажи бесплатный аудит сайта и узнай как повысить продажи с сайта!</p>
-                        <button class="btn btn-md btn-warning" style="width: 100%;">ЗАКАЗАТЬ АУДИТ</button>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="service-block-1">
-                        <h4><strong>Повышай продажи с сайта</strong></h4>
-                        <p style="margin: 15px 0 15px 0;">Закажи у нас продвижение и увелич продажи до небес!</p>
-                        <button class="btn btn-md btn-warning" style="width: 100%;">НАЧАТЬ ПРОДВИЖЕНИЕ</button>
-                    </div>
-                </div>
-            </div>
+            <?= WorksLeftBlock::widget() ?>
         </div>
         <div class="col-md-8">
             <div class="row">
@@ -96,28 +37,28 @@ $this->title = 'Работы';
                         'items' => [
                             [
                                 'label' => 'Клиенты',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
+                                'url' => Url::to(['/works/clients']),
+                                'active' => Yii::$app->controller->action->id == 'clients'
                             ],
                             [
                                 'label' => 'Посадочные страницы',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
+                                'url' => Url::to(['/works/landing-page']),
+                                'active' => Yii::$app->controller->action->id == 'landing-page'
                             ],
                             [
                                 'label' => 'Сайты',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
+                                'url' => Url::to(['/works/sites']),
+                                'active' => Yii::$app->controller->action->id == 'sites'
                             ],
                             [
                                 'label' => 'Видеорекомендации',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
+                                'url' => Url::to(['/works/video-recommendations']),
+                                'active' => Yii::$app->controller->action->id == 'video-recommendations'
                             ],
                             [
                                 'label' => 'SEO продвижение',
-                                'url' => Url::to(['/#']),
-                                //'active' => Yii::$app->controller->action->id == 'service'
+                                'url' => Url::to(['/works/seo-promotion']),
+                                'active' => Yii::$app->controller->action->id == 'seo-promotion'
                             ],
                         ],
                         'options' => [

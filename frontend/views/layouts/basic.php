@@ -58,35 +58,118 @@ $this->beginPage();
         $menuItems = [
             [
                 'label' => Yii::t('app', 'О нас'),
-                'url' => Url::to(['/#']),
+                'items' => [
+                    [
+                        'label' => 'Компания',
+                        'url' => Url::to(['/about/company']),
+                        //'active' => Yii::$app->controller->action->id == 'service'
+                    ],
+                    [
+                        'label' => 'Команда',
+                        'url' => Url::to(['/about/command']),
+                        //'active' => Yii::$app->controller->action->id == 'service'
+                    ],
+                    [
+                        'label' => 'Партнеры',
+                        'url' => Url::to(['/about/partners']),
+                        //'active' => Yii::$app->controller->action->id == 'service'
+                    ],
+                    [
+                        'label' => 'Заслуги',
+                        'url' => Url::to(['/about/merits']),
+                        //'active' => Yii::$app->controller->action->id == 'service'
+                    ],
+                ],
                 'linkOptions' => [
 
                 ]
             ],
             [
                 'label' => Yii::t('app', 'Услуги'),
-                'url' => Url::to(['/site/service']),
+                'items' => [
+                    [
+                        'label' => 'Разработка сайта "под ключ"',
+                        'url' => Url::to(['/service/site-development']),
+                        'active' => Yii::$app->controller->action->id == 'site-development'
+                    ],
+                    [
+                        'label' => 'Разработка Landing page',
+                        'url' => Url::to(['/service/landing-page']),
+                        'active' => Yii::$app->controller->action->id == 'landing-page'
+                    ],
+                    [
+                        'label' => 'Оптимизация для поисковых систем',
+                        'url' => Url::to(['/service/search-optimization']),
+                        'active' => Yii::$app->controller->action->id == 'search-optimization'
+                    ],
+                    [
+                        'label' => 'Оптимизация для социальных медиа',
+                        'url' => Url::to(['/service/media-optimization']),
+                        'active' => Yii::$app->controller->action->id == 'media-optimization'
+                    ],
+                    [
+                        'label' => 'Аудит сайта',
+                        'url' => Url::to(['/service/site-audit']),
+                        'active' => Yii::$app->controller->action->id == 'site-audit'
+                    ],
+                    [
+                        'label' => 'E-mail маркетинг',
+                        'url' => Url::to(['/service/email-marketing']),
+                        'active' => Yii::$app->controller->action->id == 'email-marketing'
+                    ],
+                    [
+                        'label' => 'One click маркетинг',
+                        'url' => Url::to(['/service/one-click-marketing']),
+                        'active' => Yii::$app->controller->action->id == 'one-click-marketing'
+                    ],
+                ],
                 'linkOptions' => [
 
                 ]
             ],
             [
                 'label' => Yii::t('app', 'Работы'),
-                'url' => Url::to(['/site/work']),
+                'items' => [
+                    [
+                        'label' => 'Клиенты',
+                        'url' => Url::to(['/works/clients']),
+                        'active' => Yii::$app->controller->action->id == 'clients'
+                    ],
+                    [
+                        'label' => 'Посадочные страницы',
+                        'url' => Url::to(['/works/our-landing-page']),
+                        'active' => Yii::$app->controller->action->id == 'our-landing-page'
+                    ],
+                    [
+                        'label' => 'Сайты',
+                        'url' => Url::to(['/works/sites']),
+                        'active' => Yii::$app->controller->action->id == 'sites'
+                    ],
+                    [
+                        'label' => 'Видеорекомендации',
+                        'url' => Url::to(['/works/video-recommendations']),
+                        'active' => Yii::$app->controller->action->id == 'video-recommendations'
+                    ],
+                    [
+                        'label' => 'SEO продвижение',
+                        'url' => Url::to(['/works/seo-promotion']),
+                        'active' => Yii::$app->controller->action->id == 'seo-promotion'
+                    ],
+                ],
                 'linkOptions' => [
 
                 ]
             ],
             [
                 'label' => Yii::t('app', 'Блог'),
-                'url' => Url::to(['/#']),
+                'url' => Url::to(['/site/blog']),
                 'linkOptions' => [
 
                 ]
             ],
             [
                 'label' => Yii::t('app', 'Контакты'),
-                'url' => Url::to(['/#']),
+                'url' => Url::to(['/site/contact']),
                 'linkOptions' => [
 
                 ]
@@ -121,30 +204,30 @@ $this->beginPage();
         <div class="container" style="background-color: #414042;">
             <div class="row" >
                 <div class="col-md-2">
-                    <a href="/#" class="footer-link"><h4 style="margin: 0;">О НАС</h4></a>
-                    <a href="/#" class="footer-link">Компания</a><br>
-                    <a href="/#" class="footer-link">Команда</a><br>
-                    <a href="/#" class="footer-link">Партнеры</a><br>
-                    <a href="/#" class="footer-link">Заслуги</a><br>
-                    <a href="/#" class="footer-link"><h4 style="margin-top: 40px;">БЛОГ</h4></a>
+                    <a href="<?= Url::to(['/about/index']) ?>" class="footer-link"><h4 style="margin: 0;">О НАС</h4></a>
+                    <a href="<?= Url::to(['/about/company']) ?>" class="footer-link">Компания</a><br>
+                    <a href="<?= Url::to(['/about/command']) ?>" class="footer-link">Команда</a><br>
+                    <a href="<?= Url::to(['/about/partners']) ?>" class="footer-link">Партнеры</a><br>
+                    <a href="<?= Url::to(['/about/merits']) ?>" class="footer-link">Заслуги</a><br>
+                    <a href="<?= Url::to(['/site/blog']) ?>" class="footer-link"><h4 style="margin-top: 40px;">БЛОГ</h4></a>
                 </div>
                 <div class="col-md-3">
-                    <a href="/site/service" class="footer-link"><h4 style="margin: 0;">УСЛУГИ</h4></a>
-                    <a href="/#" class="footer-link">Разработка сайта "под ключ"</a><br>
-                    <a href="/#" class="footer-link">Разработка Landing page</a><br>
-                    <a href="/#" class="footer-link">Оптимизация для поисковых систем</a><br>
-                    <a href="/#" class="footer-link">Оптимизация для социальных медиа</a><br>
-                    <a href="/#" class="footer-link">Аудит сайта</a><br>
-                    <a href="/#" class="footer-link">Е-майл маркетинг</a><br>
-                    <a href="/#" class="footer-link">One click маркетинг</a><br>
+                    <a href="<?= Url::to(['/service/index']) ?>" class="footer-link"><h4 style="margin: 0;">УСЛУГИ</h4></a>
+                    <a href="<?= Url::to(['/service/site-development']) ?>" class="footer-link">Разработка сайта "под ключ"</a><br>
+                    <a href="<?= Url::to(['/service/landing-page']) ?>" class="footer-link">Разработка Landing page</a><br>
+                    <a href="<?= Url::to(['/service/search-optimization']) ?>" class="footer-link">Оптимизация для поисковых систем</a><br>
+                    <a href="<?= Url::to(['/service/media-optimization']) ?>" class="footer-link">Оптимизация для социальных медиа</a><br>
+                    <a href="<?= Url::to(['/service/site-audit']) ?>" class="footer-link">Аудит сайта</a><br>
+                    <a href="<?= Url::to(['/service/email-marketing']) ?>" class="footer-link">Е-майл маркетинг</a><br>
+                    <a href="<?= Url::to(['/service/one-click-marketing']) ?>" class="footer-link">One click маркетинг</a><br>
                 </div>
                 <div class="col-md-3">
-                    <a href="/#" class="footer-link"><h4 style="margin: 0;">ПОРТФОЛИО</h4></a>
-                    <a href="/#" class="footer-link">Клиенты</a><br>
-                    <a href="/#" class="footer-link">Сайты</a><br>
-                    <a href="/#" class="footer-link">Landing page</a><br>
-                    <a href="/#" class="footer-link">Видеорекомендации</a><br>
-                    <a href="/#" class="footer-link"><h4 style="margin-top: 40px;">КОНТАКТЫ</h4></a>
+                    <a href="<?= Url::to(['/works/index']) ?>" class="footer-link"><h4 style="margin: 0;">ПОРТФОЛИО</h4></a>
+                    <a href="<?= Url::to(['/works/clients']) ?>" class="footer-link">Клиенты</a><br>
+                    <a href="<?= Url::to(['/works/sites']) ?>" class="footer-link">Сайты</a><br>
+                    <a href="<?= Url::to(['/works/our-landing-page']) ?>" class="footer-link">Landing page</a><br>
+                    <a href="<?= Url::to(['/works/video-recommendations']) ?>" class="footer-link">Видеорекомендации</a><br>
+                    <a href="<?= Url::to(['/site/contact']) ?>" class="footer-link"><h4 style="margin-top: 40px;">КОНТАКТЫ</h4></a>
                 </div>
                 <div class="col-md-4" style="">
                     <div style="width: 85%;">
