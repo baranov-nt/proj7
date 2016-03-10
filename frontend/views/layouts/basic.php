@@ -58,7 +58,9 @@ $this->beginPage();
         $menuItems = [
             [
                 'label' => Yii::t('app', 'О нас'),
-                'items' => [
+                'url' => Url::to(['/about/index']),
+                'active' => Yii::$app->controller->id == 'about',
+                /*'items' => [
                     [
                         'label' => 'Компания',
                         'url' => Url::to(['/about/company']),
@@ -79,14 +81,16 @@ $this->beginPage();
                         'url' => Url::to(['/about/merits']),
                         //'active' => Yii::$app->controller->action->id == 'service'
                     ],
-                ],
+                ],*/
                 'linkOptions' => [
 
                 ]
             ],
             [
                 'label' => Yii::t('app', 'Услуги'),
-                'items' => [
+                'url' => Url::to(['/service/index']),
+                'active' => Yii::$app->controller->id == 'service',
+                /*'items' => [
                     [
                         'label' => 'Разработка сайта "под ключ"',
                         'url' => Url::to(['/service/site-development']),
@@ -122,14 +126,16 @@ $this->beginPage();
                         'url' => Url::to(['/service/one-click-marketing']),
                         'active' => Yii::$app->controller->action->id == 'one-click-marketing'
                     ],
-                ],
+                ],*/
                 'linkOptions' => [
 
                 ]
             ],
             [
                 'label' => Yii::t('app', 'Работы'),
-                'items' => [
+                'url' => Url::to(['/works/index']),
+                'active' => Yii::$app->controller->id == 'works',
+                /*'items' => [
                     [
                         'label' => 'Клиенты',
                         'url' => Url::to(['/works/clients']),
@@ -155,7 +161,7 @@ $this->beginPage();
                         'url' => Url::to(['/works/seo-promotion']),
                         'active' => Yii::$app->controller->action->id == 'seo-promotion'
                     ],
-                ],
+                ],*/
                 'linkOptions' => [
 
                 ]
