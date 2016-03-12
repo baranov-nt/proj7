@@ -100,6 +100,7 @@ $this->title = 'Работы';
                         </div>
                     </div>
                     <br>
+                    <!-- ------------------------- -->
                     <h2 style="margin-bottom: 20px;">Посадочные страницы</h2>
                     <div class="row">
                         <div class="col-sm-6" style="margin-bottom: 20px;">
@@ -170,10 +171,10 @@ $this->title = 'Работы';
                                     <h1 style="margin: 0;">Сайты</h1>
                                 </div>
                                 <div class="col-sm-10" style="margin-top: 2px; padding-left: 20px;">
-                                    <button class="btn btn-sm btn-warning" style="margin-right: 10px;">Корпоротивные</button>
-                                    <button class="btn btn-sm btn-warning" style="margin-right: 10px;">Интернет магазины</button>
-                                    <button class="btn btn-sm btn-warning" style="margin-right: 10px;">Каталоги</button>
-                                    <button class="btn btn-sm btn-warning">Визитки</button>
+                                    <button class="btn btn-sm btn-warning" style="margin-right: 10px; margin-bottom: 5px;">Корпоротивные</button>
+                                    <button class="btn btn-sm btn-warning" style="margin-right: 10px; margin-bottom: 5px;">Интернет магазины</button>
+                                    <button class="btn btn-sm btn-warning" style="margin-right: 10px; margin-bottom: 5px;">Каталоги</button>
+                                    <button class="btn btn-sm btn-warning" style="margin-right: 10px; margin-bottom: 5px;">Визитки</button>
                                 </div>
                             </div>
                         </div>
@@ -239,7 +240,7 @@ $this->title = 'Работы';
                     <!-- ------------------------------ -->
                     <div class="row">
                         <div class="col-md-12" style="margin-top: 60px; margin-bottom: 20px;">
-                            <h1 style="margin: 0;">Видеорекомендации</h1>
+                            <h2 style="margin: 0;">Видеорекомендации</h2>
                         </div>
                         <div class="col-sm-6" style="margin-bottom: 20px;">
                             <div class="img-container">

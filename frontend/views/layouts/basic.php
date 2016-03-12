@@ -205,11 +205,10 @@ $this->beginPage();
             <?= Alert::widget() ?>
             <?= $content ?>
     </div>
-
-    <footer style="background-color: #414042; color: #ffffff;  padding: 30px 0 20px 0;">
+    <footer style="background-color: #414042; color: #ffffff;  padding: 20px 0 0 0;">
         <div class="container" style="background-color: #414042;">
             <div class="row" >
-                <div class="col-md-2">
+                <div class="col-md-2" style="padding-bottom: 20px;">
                     <a href="<?= Url::to(['/about/index']) ?>" class="footer-link"><h4 style="margin: 0;">О НАС</h4></a>
                     <a href="<?= Url::to(['/about/company']) ?>" class="footer-link">Компания</a><br>
                     <a href="<?= Url::to(['/about/command']) ?>" class="footer-link">Команда</a><br>
@@ -217,7 +216,7 @@ $this->beginPage();
                     <a href="<?= Url::to(['/about/merits']) ?>" class="footer-link">Заслуги</a><br>
                     <a href="<?= Url::to(['/site/blog']) ?>" class="footer-link"><h4 style="margin-top: 40px;">БЛОГ</h4></a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" style="padding-bottom: 20px;">
                     <a href="<?= Url::to(['/service/index']) ?>" class="footer-link"><h4 style="margin: 0;">УСЛУГИ</h4></a>
                     <a href="<?= Url::to(['/service/site-development']) ?>" class="footer-link">Разработка сайта "под ключ"</a><br>
                     <a href="<?= Url::to(['/service/landing-page']) ?>" class="footer-link">Разработка Landing page</a><br>
@@ -227,7 +226,7 @@ $this->beginPage();
                     <a href="<?= Url::to(['/service/email-marketing']) ?>" class="footer-link">Е-майл маркетинг</a><br>
                     <a href="<?= Url::to(['/service/one-click-marketing']) ?>" class="footer-link">One click маркетинг</a><br>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" style="padding-bottom: 20px;">
                     <a href="<?= Url::to(['/works/index']) ?>" class="footer-link"><h4 style="margin: 0;">ПОРТФОЛИО</h4></a>
                     <a href="<?= Url::to(['/works/clients']) ?>" class="footer-link">Клиенты</a><br>
                     <a href="<?= Url::to(['/works/sites']) ?>" class="footer-link">Сайты</a><br>
@@ -235,7 +234,7 @@ $this->beginPage();
                     <a href="<?= Url::to(['/works/video-recommendations']) ?>" class="footer-link">Видеорекомендации</a><br>
                     <a href="<?= Url::to(['/site/contact']) ?>" class="footer-link"><h4 style="margin-top: 40px;">КОНТАКТЫ</h4></a>
                 </div>
-                <div class="col-md-4" style="">
+                <div class="col-md-4" style="padding-bottom: 20px;">
                     <div style="width: 85%;">
                     <img style="width: 100%; padding-bottom: 10px; background-color: #414042;" src="<?= Yii::$app->urlManager->baseUrl.'/images/Header/Logoheader.svg' ?>"/><br>
                     <a href="/#"><i class="fa fa-facebook circle"></i></a>
@@ -244,7 +243,7 @@ $this->beginPage();
                     <a href="/#"><i class="fa fa-vk circle"></i></a>
                     <a href="/#"><i class="fa fa-linkedin circle"></i></a>
                     <p class="text-right" style="margin-top: 20px; margin-bottom: 0; padding-bottom: 0;">8(343)555-55-55</p>
-                    <p class="text-right" style="margin-top: 0; padding-top: 0;">Екатеринбург, Машиностроителей, 9</p>
+                    <p class="text-right" style="margin-top: 0; padding-top: 0; font-size: 12px;">Екатеринбург, Машиностроителей, 9</p>
                     </div>
                 </div>
             </div>

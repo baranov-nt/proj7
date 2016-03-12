@@ -13,7 +13,7 @@ $this->title = 'IT PROGECTS';
         <div class="container">
             <div class="row">
                 <div class="col-md-offset-5 col-md-2 text-center" style="margin-top: 190px;">
-                    <img style="width: 100px;" src="images/Mainbanner/logobanner.svg"/>
+                    <img style="width: 100px;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Mainbanner/logobanner.svg"/>
                 </div>
                 <div class="col-md-4 col-md-offset-4 text-center" style="color: #ffffff; padding-top: 40px;">
                     <p>Мы поставим ваш бизнес на лидирующие позиции.</p>
@@ -87,13 +87,13 @@ $this->title = 'IT PROGECTS';
             </div>
         </div>
     </div>
-    <div class="main-services">
+    <div class="main-services text-center">
         <div class="row" style="width: 100%">
             <div class="col-md-12 text-center" style="color: #ffffff; padding-top: 10px;">
                 <h3>НАШИ УСЛУГИ</h3>
             </div>
             <div class="col-md-2 col-md-offset-3 text-center">
-                <img style="width: 100%" src="/images/Services/Services1.svg"/>
+                <img style="width: 100%" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Services/Services1.svg"/>
                 <h5 style="color: #ffffff; font-weight: 700; padding-top: 7px;">РАЗРАБОТКА САЙТОВ</h5>
                 <p style="color: #ffffff;">
                     It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software.
@@ -101,7 +101,7 @@ $this->title = 'IT PROGECTS';
                 <button class="btn btn-md btn-primary" style="margin: 30px 0 40px 0;">ПЕРЕЙТИ</button>
             </div>
             <div class="col-md-2 text-center">
-                <img style="width: 100%" src="/images/Services/Services2.svg"/>
+                <img style="width: 100%" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Services/Services2.svg"/>
                 <h5 style="color: #ffffff; margin-bottom: 3px;  font-weight: 700;">ОПТИМИЗАЦИЯ ДЛЯ ПОИСКОВЫХ СИСТЕМ</h5>
                 <p style="color: #ffffff;">
                     It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software.
@@ -109,7 +109,7 @@ $this->title = 'IT PROGECTS';
                 <button class="btn btn-md btn-primary" style="margin: 30px 0 40px 0;">ПЕРЕЙТИ</button>
             </div>
             <div class="col-md-2 text-center">
-                <img style="width: 100%;" src="/images/Services/Services3.svg"/>
+                <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Services/Services3.svg"/>
                 <h5 style="color: #ffffff; font-weight: 700; padding-top: 7px;">ИНТЕРНЕТ МАРКЕТИНГ</h5>
                 <p style="color: #ffffff;">
                     It takes input in the form of a hex color code value and converts that value to a RGB value that can be used to specify color in photo editing software.
@@ -131,19 +131,19 @@ $this->title = 'IT PROGECTS';
         <div class="container">
             <div class="row" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="col-md-2 col-md-offset-1">
-                    <img style="width: 100px;" src="images/Clients/1client.svg"/>
+                    <img style="width: 100px;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Clients/1client.svg"/>
                 </div>
                 <div class="col-md-2">
-                    <img style="width: 100px;" src="images/Clients/2client.svg"/>
+                    <img style="width: 100px;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Clients/2client.svg"/>
                 </div>
                 <div class="col-md-2">
-                    <img style="width: 100px;" src="images/Clients/3client.svg"/>
+                    <img style="width: 100px;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Clients/3client.svg"/>
                 </div>
                 <div class="col-md-2">
-                    <img style="width: 100px;" src="images/Clients/4client.svg"/>
+                    <img style="width: 100px;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Clients/4client.svg"/>
                 </div>
                 <div class="col-md-2">
-                    <img style="width: 100px;" src="images/Clients/5client.svg"/>
+                    <img style="width: 100px;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Clients/5client.svg"/>
                 </div>
             </div>
         </div>
@@ -158,16 +158,16 @@ $this->title = 'IT PROGECTS';
                 <div class="col-md-6" >
                     <div class="row">
                         <div class="col-md-6" style="padding-left: 0; padding-right: 0;">
-                            <img style="width: 100%;" src="images/Sites/sites1.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Sites/sites1.svg"/>
                         </div>
                         <div class="col-md-6" style="padding-left: 0; padding-right: 0;">
-                            <img style="width: 100%;" src="images/Sites/sites2.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Sites/sites2.svg"/>
                         </div>
                         <div class="col-md-6" style="padding-left: 0; padding-right: 0;">
-                            <img style="width: 100%;" src="images/Sites/sites3.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Sites/sites3.svg"/>
                         </div>
                         <div class="col-md-6" style="padding-left: 0; padding-right: 0;">
-                            <img style="width: 100%;" src="images/Sites/sites4.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Sites/sites4.svg"/>
                         </div>
                     </div>
                 </div>
@@ -183,7 +183,7 @@ $this->title = 'IT PROGECTS';
                 <div id="ex3" class="col-md-10 col-md-offset-1 ">
                     <div class="row post last">
                         <div class="col-md-8" style="margin-top: 20px !important;">
-                            <img style="width: 100%;" src="images/Howtoweworks/howweworks1.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Howtoweworks/howweworks1.svg"/>
                         </div>
                         <div class="col-md-4" style="margin-top: 20px !important;">
                             <h2 style="color: #ffffff;">ВЫЗОВ</h2>
@@ -191,7 +191,7 @@ $this->title = 'IT PROGECTS';
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-md-8 col-md-push-4" style="margin-top: 30px !important;">
-                            <img style="width: 100%;" src="images/Howtoweworks/howweworks2.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Howtoweworks/howweworks2.svg"/>
                         </div>
                         <div class="col-md-4 col-sm-pull-8" style="margin-top: 20px !important;">
                             <h2 style="color: #ffffff;">РЕШЕНИЕ</h2>
@@ -199,7 +199,7 @@ $this->title = 'IT PROGECTS';
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-md-8" style="margin-top: 30px !important; margin-bottom: 30px !important;">
-                            <img style="width: 100%;" src="images/Howtoweworks/howweworks3.svg"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Howtoweworks/howweworks3.svg"/>
                         </div>
                         <div class="col-md-4" style="margin-top: 30px !important; margin-bottom: 30px !important;">
                             <h2 style="color: #ffffff;">РЕЗУЛЬТАТЫ</h2>
@@ -218,16 +218,16 @@ $this->title = 'IT PROGECTS';
                 </div>
                 <div class="col-md-6">
                     <div class="row" style="padding-top: 30px;">
-                        <div class="col-xs-6">
+                        <div class="col-xs-12">
                             <p style="color: #009444; font-size: 64px;">2563%</p>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12">
                             <p style="color: #009444; font-size: 64px;">75%</p>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12">
                             <p style="color: #009444; font-size: 64px;">390%</p>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12">
                             <p style="color: #009444; font-size: 64px;">1985%</p>
                         </div>
                     </div>
@@ -235,7 +235,7 @@ $this->title = 'IT PROGECTS';
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-sm-4">
-                            <img style="width: 100%;" src="images/Results/result1.png"/>
+                            <img style="width: 100%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Results/result1.png"/>
                         </div>
                         <div class="col-sm-8">
                             <h5 style="padding-top: 15px;">Компания</h5>
@@ -244,13 +244,13 @@ $this->title = 'IT PROGECTS';
                             <h5>Должность</h5>
                         </div>
                         <div class="col-sm-12">
-                            <img style="width: 80px;" src="images/Results/covichki-29.svg"/>
+                            <img style="width: 80px;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Results/covichki-29.svg"/>
                         </div>
                         <div class="col-sm-12" style="height: 80px;">
 
                         </div>
                         <div class="col-sm-12 text-right">
-                            <img style="width: 80px;" src="images/Results/covichki-30.svg"/>
+                            <img style="width: 80px;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Results/covichki-30.svg"/>
                         </div>
                     </div>
                 </div>
@@ -264,7 +264,7 @@ $this->title = 'IT PROGECTS';
         <div id="ex4" class="container">
             <div class="row post last" style="padding-top: 50px; padding-bottom: 40px;">
                 <div class="col-md-5">
-                    <img style="width: 80%;" src="images/Aboutus/Logo-31.svg"/>
+                    <img style="width: 80%;" src="<?= Yii::$app->urlManager->baseUrl ?>/images/Aboutus/Logo-31.svg"/>
                 </div>
                 <div class="col-md-7">
                     <h1>НЕМНОГО О НАС</h1>

@@ -1,3 +1,6 @@
+.wrap {
+
+}
 .footer-link {
     color: #ffffff;
     font-size: 12px;
@@ -21,6 +24,7 @@
 }
 .main-services {
     background-color: #65b99e;
+    text-align: center !important;
 }
 .main-header-service {
     background: url(../images/Ourspecials/bannerspecials.jpg);
@@ -54,6 +58,51 @@
 .call-back-banner {
     background-color: #575756;
     padding: 0 10px 0 10px;
+}
+.clients-container {
+    position:relative;
+    display:inline-block;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+.clients-container-image {
+    width: 100%;
+}
+.clients-container-active-content {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    transition-duration: 0.5s;
+}
+.clients-container-active-content-inside {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+.clients-btn-transparent {
+    background-color: rgba(255,255,255, 1);
+    color: #000000;
+}
+.clients-btn-transparent:hover {
+    border: 1px solid #ffffff;
+    background-color: rgba(0,0,0, 0.5);
+    color: #ffffff;
+}
+.clients-glyphicon {
+    padding-top: 5px;
+}
+@media (max-width: 767px) {
+    .clients-container-active-content-inside {
+        position: absolute;
+        top: 10%;
+        width: 100%;
+    }
 }
 .image-block {
     background: url(../images/Works/w_temp.png);
@@ -117,6 +166,11 @@
     margin-bottom: 30px;
 }
 @media (max-width: 1226px) and (min-width: 899px) {
+    .img-container-image {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
     .img-container-image {
         width: 100%;
     }

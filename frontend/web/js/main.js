@@ -25,6 +25,19 @@ $(".img-container")
             "display":"block",
         }).show().animate({opacity:1}, 10);
     });
+$(".clients-container")
+    .mouseenter(function(){
+        $(this).children('.clients-container-active-content').css({
+            "opacity":"0",
+            "display":"block",
+        }).show().animate({opacity:1}, 10);
+    })
+    .mouseleave(function(){
+        $(this).children('.clients-container-active-content').css({
+            "opacity":"1",
+            "display":"none",
+        }).show().animate({opacity:0}, 10);
+    });
 $('#modal-5').on('hidden.bs.modal', function (e) {
     $("#modal-5 iframe").attr("src", $("#modal-5 iframe").attr("src"));
 });
