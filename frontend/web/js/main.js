@@ -38,9 +38,11 @@ $(".clients-container")
             "display":"none",
         }).show().animate({opacity:0}, 10);
     });
-$('#modal-5').on('hidden.bs.modal', function (e) {
-    $("#modal-5 iframe").attr("src", $("#modal-5 iframe").attr("src"));
+$('.modal').on('hidden.bs.modal', function (e) {
+    $(".modal iframe").attr("src", $(".modal iframe").attr("src"));
 });
+/*
 $('#modal-6').on('hidden.bs.modal', function (e) {
     $("#modal-6 iframe").attr("src", $("#modal-6 iframe").attr("src"));
 });
+*/

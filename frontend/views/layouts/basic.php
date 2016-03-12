@@ -6,6 +6,7 @@ use yii\helpers\Html;
 use common\widgets\Alert;
 use yii\helpers\Url;
 use common\widgets\FontAwesome\AssetBundle;
+use common\widgets\CallBack\CallBack;
 
 /**
  * Created by PhpStorm.
@@ -194,7 +195,7 @@ $this->beginPage();
         ?>
 
         <div class="navbar-nav navbar-right" style="display: block; color: #ffffff; padding: 20px 0 10px 10px; width: 350px;">
-            <button class="btn btn-success btn-md" style="float: left; margin-right: 10px;">Закажи звонок</button>
+            <?= CallBack::widget() ?>
             <div style=" font-size: 28px; line-height: 28px; text-align: right;">
                 <img style="width: 22px; margin: 0 !important; padding-bottom: 4px;" src="<?= Yii::$app->urlManager->baseUrl.'/images/Header/call.svg' ?>"/> 555-55-55</div>
             <div style="font-size: 10px; text-transform: none; text-align: right;">Екатеринбург, Машиностроителей, 9</div>

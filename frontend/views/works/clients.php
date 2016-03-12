@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
         <div class="col-md-8">
             <div class="col-md-12">
-                <h2 style="margin-bottom: 15px;">Клиенты</h2>
+                <h2 style="margin-bottom: 15px; margin-top: 15px;"><?= $this->title ?></h2>
                 <div class="col-sm-10" style="margin: 0 0 20px 0; padding: 0;">
                     <button class="btn btn-sm btn-warning" style="margin-right: 10px;">Сайт</button>
                     <button class="btn btn-sm btn-default" style="margin-right: 10px; text-transform: none;">SEO Продвижение</button>

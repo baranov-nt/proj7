@@ -7,8 +7,7 @@
  */
 use yii\bootstrap\Modal;
 use yii\bootstrap\Html;
-?>
-<?php
+
 $i = 0;
 while($i < 12):
     $i++;

@@ -218,16 +218,16 @@ $this->title = 'IT PROGECTS';
                 </div>
                 <div class="col-md-6">
                     <div class="row" style="padding-top: 30px;">
-                        <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-6">
                             <p style="color: #009444; font-size: 64px;">2563%</p>
                         </div>
-                        <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-6">
                             <p style="color: #009444; font-size: 64px;">75%</p>
                         </div>
-                        <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-6">
                             <p style="color: #009444; font-size: 64px;">390%</p>
                         </div>
-                        <div class="col-xs-12">
+                        <div class="col-xs-12 col-sm-6">
                             <p style="color: #009444; font-size: 64px;">1985%</p>
                         </div>
                     </div>
