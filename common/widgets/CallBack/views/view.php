@@ -39,7 +39,7 @@ use yii\widgets\MaskedInput;
                 ]]); ?>
         </div>
         <div class="col-sm-6">
-            <?= $form->field($modelCallBackForm, 'name') ?>
+            <?= $form->field($modelCallBackForm, 'name')->textInput(['placeholder' => 'Ваше имя']) ?>
         </div>
 
         <div class="col-sm-12">

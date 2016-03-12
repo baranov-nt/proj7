@@ -47,7 +47,7 @@ use yii\bootstrap\Html;
             <p style="padding: 0 !important; margin: 0 !important; font-size: 16px; font-weight: 700;">март 2016</p>
         </div>
         <div class="col-md-12 text-center" style="margin-bottom: 20px;">
-            <p style="padding: 0 !important; margin: 0 !important;">Креативный директор</p>
+            <p style="padding: 0 !important; margin: 0 !important;">Креативный директор:</p>
             <p style="padding: 0 !important; margin: 0 !important; font-size: 16px; font-weight: 700;">Шелковый Кирилл</p>
         </div>
         <div class="col-md-12 text-center" style="margin-bottom: 20px;">
