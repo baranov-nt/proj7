@@ -24,7 +24,7 @@ while($i < 12):
                         </button>
                     </div>
                     <div class="col-xs-12 text-center" style="padding-top: 20px;">
-                        <?= Html::a('<span class="glyphicon glyphicon-link clients-glyphicon"></span>', ['/'], ['class' => 'btn clients-btn-transparent', 'target' => '_blank']) ?>
+                        <?= Html::a('<span class="glyphicon glyphicon-link clients-glyphicon"></span>', ['/works/element-site'], ['class' => 'btn clients-btn-transparent', 'target' => '_blank']) ?>
                     </div>
                 </div>
             </div>

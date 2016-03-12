@@ -15,19 +15,19 @@ use yii\widgets\MaskedInput;
 ?>
 <button class="btn btn-success btn-md" style="float: left; margin-right: 10px;" data-toggle="modal" data-target="#modal-callback">Закажи звонок</button>
 <div style="color: #000000; text-transform: none;">
+    <?php $form = ActiveForm::begin([
+        'id' => 'callback-form'
+    ]); ?>
     <?php Modal::begin([
         'id' => 'modal-callback',
         'header' => '<h2>Заказать обратный звонок</h2>',
+        'footer' => Html::submitButton('Заказать звонок', ['class' => 'btn btn-warning', 'name' => 'callback-button']),
         'toggleButton' => false,
         'closeButton' => [
             'onclick' => ''
         ]
     ]);
     ?>
-    <?php $form = ActiveForm::begin([
-        'id' => 'callback-form'
-    ]); ?>
-
     <div class="row">
         <div class="col-sm-6">
             <?= $form->field($modelCallBackForm, 'phone')->widget(MaskedInput::className(),[
@@ -44,18 +44,11 @@ use yii\widgets\MaskedInput;
 
         <div class="col-sm-12">
             <div style="color:#999;margin:1em 0">
-                Мы с вами свяжемся в ближайшее время.
-            </div>
-        </div>
-
-        <div class="col-sm-12">
-            <div class="form-group">
-                <?= Html::submitButton('Заказать звонок', ['class' => 'btn btn-warning', 'name' => 'login-button']) ?>
+                <i>*Мы с Вами свяжемся в ближайшее время.</i>
             </div>
         </div>
     </div>
-
-    <?php ActiveForm::end(); ?>
     <?php
     Modal::end(); ?>
+    <?php ActiveForm::end(); ?>
 </div>

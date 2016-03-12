@@ -42,4 +42,14 @@ class WorksController extends Controller
     {
         return $this->render('seo-promotion');
     }
+
+    public function actionElementSite()
+    {
+        return $this->render('element-site');
+    }
+
+    public function actionElementPromotion()
+    {
+        return $this->render('element-promotion');
+    }
 }
